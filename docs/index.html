@@ -85,6 +85,14 @@
             margin-bottom: 20px;
             padding-bottom: 15px;
             border-bottom: 3px solid;
+            position: sticky;
+            top: 0;
+            background: rgba(255, 255, 255, 0.95);
+            z-index: 10;
+            backdrop-filter: blur(10px);
+            margin: -20px -20px 20px -20px;
+            padding: 20px 20px 15px 20px;
+            border-radius: 12px 12px 0 0;
         }
 
         .column-header h2 {
@@ -1490,14 +1498,23 @@
         }
 
         function handleDragEnter(e) {
-            if (e.target.classList.contains('cards-container')) {
-                e.target.classList.add('drag-over');
+            const column = e.target.closest('.column');
+            if (column) {
+                const container = column.querySelector('.cards-container');
+                if (container) {
+                    container.classList.add('drag-over');
+                }
             }
         }
 
         function handleDragLeave(e) {
-            if (e.target.classList.contains('cards-container')) {
-                e.target.classList.remove('drag-over');
+            // Only remove drag-over if we're leaving the column entirely
+            const column = e.target.closest('.column');
+            if (!column || !e.relatedTarget || !column.contains(e.relatedTarget)) {
+                const container = e.target.closest('.column')?.querySelector('.cards-container');
+                if (container) {
+                    container.classList.remove('drag-over');
+                }
             }
         }
 
@@ -1505,8 +1522,15 @@
             if (e.stopPropagation) {
                 e.stopPropagation();
             }
+            if (e.preventDefault) {
+                e.preventDefault();
+            }
 
-            const container = e.target.closest('.cards-container');
+            // Find the column and its container
+            const column = e.target.closest('.column');
+            if (!column) return false;
+
+            const container = column.querySelector('.cards-container');
             if (!container) return false;
 
             container.classList.remove('drag-over');
@@ -1558,13 +1582,13 @@
                 document.getElementById(containerId).appendChild(card);
             });
 
-            // Setup drop zones
-            const containers = document.querySelectorAll('.cards-container');
-            containers.forEach(container => {
-                container.addEventListener('dragover', handleDragOver);
-                container.addEventListener('dragenter', handleDragEnter);
-                container.addEventListener('dragleave', handleDragLeave);
-                container.addEventListener('drop', handleDrop);
+            // Setup drop zones - make entire columns drop zones
+            const columns = document.querySelectorAll('.column');
+            columns.forEach(column => {
+                column.addEventListener('dragover', handleDragOver);
+                column.addEventListener('dragenter', handleDragEnter);
+                column.addEventListener('dragleave', handleDragLeave);
+                column.addEventListener('drop', handleDrop);
             });
 
             updateCounts();
