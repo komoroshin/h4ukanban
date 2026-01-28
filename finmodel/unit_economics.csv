@@ -1,0 +1,49 @@
+Metric,Doctor (Professional),Patient (Premium),Notes
+,,
+PRICING,,
+ARPPU (average),$235,$9.99,Doctor blended includes early adopter discounts
+ARPPU (Tier 1 Early Adopter),$174,-,30% discount
+ARPPU (Tier 2 Early Adopter),$199,-,20% discount
+ARPPU (Full Price),$249,-,After early adopter period
+Revenue Share,-,-$2.50,25% of patient Premium goes to doctor
+Net Revenue per Unit,$235,$7.49,After revenue share
+,,
+COGS,,
+Transcription/AI per visit,$0.1055,-,Whisper + GPT-4o per 15-min visit
+Monthly visits assumed,340,-,Typical practice: 17 patients/day × 20 days
+COGS per month,$37.19,$2.83,
+COGS as % of revenue,15.8%,28.3%,Before revenue share
+,,
+MARGINS,,
+Gross Margin,85%,72%,Before revenue share (patient)
+Net Margin (after rev share),85%,47%,After 25% revenue share to doctor
+,,
+INCLUDED LIMITS,,
+Visits/Transcriptions,600,-,30 per day
+AI Messages,-,500,16 per day
+Food Photos,-,150,5 per day
+Lab Analyses,-,20,Per month
+,,
+OVERAGE PRICING,,
+Additional Visits,$0.15,-,Above 600/month
+Additional Messages,-,$2.99,+100 messages top-up pack
+Additional Photos,-,$1.99,+50 photos top-up pack
+,,
+LIFETIME VALUE,,
+Monthly Churn,5%,10%,Target rates
+Average Lifetime (months),20,10,
+LTV,"$4,700",$75,Net after revenue share (patient)
+CAC,"$300-500",$0,Direct sales vs organic
+LTV/CAC,9.4x - 15.7x,Infinite,Both very healthy
+Payback Period,1.3 - 2.1 months,Immediate,
+,,
+COMBINED METRICS (5 doctors + 75 patients),,
+Total MRR,"$1,175","$562",Net after revenue share
+Total COGS,$186,$212,
+Gross Profit,$989,$350,
+Blended Margin,84%,62%,
+Combined MRR,"$1,737",,After revenue share adjustment
+Combined COGS,$398,,
+Combined Profit,"$1,339",,
+Combined Margin,77%,,
+ARR (annualized),"$20,844",,

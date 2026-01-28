@@ -1,0 +1,53 @@
+# API ключи и секреты
+.env
+*.key
+
+# Данные встреч и транскрипты
+meetings/transcripts/*.json
+meetings/processed/*.json
+meetings/action_items/*.json
+meetings/action_items/analysis_*.json
+meetings/.monitor_state.json
+meetings/.auto_process_state.json
+
+# Но сохраняем структуру папок и README
+!meetings/transcripts/.gitkeep
+!meetings/processed/.gitkeep
+!meetings/action_items/.gitkeep
+!meetings/action_items/README_KANBAN.md
+!meetings/action_items/TASKS_SUMMARY.md
+
+# GitHub Pages - включаем docs/ для публикации
+!docs/
+
+# Логи
+logs/
+*.log
+*.pid
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Временные файлы
+*.tmp
+*.bak
+.cache/

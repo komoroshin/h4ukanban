@@ -1,0 +1,10 @@
+# Зависимости для обработки транскриптов встреч healthy4u
+
+# Fireflies API
+requests>=2.31.0
+
+# Claude API
+anthropic>=0.39.0
+
+# Дополнительные зависимости
+python-dotenv>=1.0.0

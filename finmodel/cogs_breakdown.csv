@@ -1,0 +1,50 @@
+Component,Cost Driver,Unit Cost,Monthly Volume,Monthly Cost,Annual Cost,Optimization Potential,Optimized Cost,Savings %
+,,,,,,,,
+DOCTOR COGS (per typical doctor with 340 visits/month),,,,,,,,
+Whisper Transcription,$0.006/min × 15min per visit,$0.090,340 visits,$30.60,$367.20,Low - already cheap,$30.60,0%
+GPT-4o SOAP Notes,3800 tokens avg per visit,$0.0155,340 visits,$5.27,$63.24,High - use GPT-4o-mini,$2.11,60%
+AI Clinical Consultant,30% of visits use,$0.0023,102 queries,$0.77,$9.24,Medium - caching,$0.54,30%
+Patient Data Infrastructure,Fixed cost,-,per doctor,$0.50,$6.00,Low,$0.50,0%
+Analytics & Reports,Batch processing,-,per doctor,$0.05,$0.60,Low,$0.05,0%
+TOTAL DOCTOR COGS,,,,$37.19,$446.28,,$33.80,9%
+,,,,,,,,
+PATIENT COGS - FREE USER,,,,,,,,
+AI Chat (GPT-4o),50 messages/month,$0.0012,50,$0.06,$0.72,High - mini + cache,$0.04,33%
+Food Photos (GPT-4 Vision),10 photos/month,$0.020,10,$0.20,$2.40,Very High - Google Vision,$0.02,90%
+Lab Analysis,5 labs/month,$0.05,5,$0.25,$3.00,Medium,$0.20,20%
+Health Sync,Fixed infrastructure,-,per user,$0.15,$1.80,Low,$0.15,0%
+Reports & Alerts,Batch GPT-4o,-,per user,$0.31,$3.72,Medium - caching,$0.25,19%
+TOTAL FREE USER COGS,,,,$0.97,$11.64,,$0.66,32%
+,,,,,,,,
+PATIENT COGS - PREMIUM TYPICAL USER (200 msg 60 photos),,,,,,,,
+AI Chat (GPT-4o),200 messages/month,$0.0125,200,$2.50,$30.00,High - mini + cache,$1.75,30%
+Food Photos (GPT-4 Vision),60 photos/month,$0.020,60,$1.20,$14.40,Very High - Google Vision,$0.09,92.5%
+Lab Analysis,10 labs/month,$0.05,10,$0.50,$6.00,Medium,$0.40,20%
+Health Sync,Fixed infrastructure,-,per user,$0.15,$1.80,Low,$0.15,0%
+Reports & Alerts,Batch GPT-4o,-,per user,$0.31,$3.72,Medium - caching,$0.25,19%
+TOTAL PREMIUM TYPICAL,,,,$4.66,$55.92,,$2.64,43%
+,,,,,,,,
+PATIENT COGS - PREMIUM AT LIMITS (500 msg 150 photos),,,,,,,,
+AI Chat (GPT-4o),500 messages/month,$0.0125,500,$6.25,$75.00,High - mini + cache,$4.38,30%
+Food Photos (GPT-4 Vision),150 photos/month,$0.020,150,$3.00,$36.00,Very High - Google Vision,$0.23,92.3%
+Lab Analysis,20 labs/month,$0.05,20,$1.00,$12.00,Medium,$0.80,20%
+Health Sync,Fixed infrastructure,-,per user,$0.15,$1.80,Low,$0.15,0%
+Reports & Alerts,Batch GPT-4o,-,per user,$0.31,$3.72,Medium - caching,$0.25,19%
+TOTAL PREMIUM AT LIMITS,,,,$10.71,$128.52,,$5.81,46%
+,,,,,,,,
+WEIGHTED AVERAGE PREMIUM COGS (70% typical 25% active 5% at limits),,,,,,,,
+AI Chat,Weighted average,-,-,$2.13,-,Optimized,$1.50,30%
+Food Photos,Weighted average,-,-,$1.08,-,Optimized,$0.08,93%
+Lab Analysis,Weighted average,-,-,$0.51,-,Optimized,$0.41,20%
+Health Sync,Fixed,-,-,$0.15,-,No change,$0.15,0%
+Reports & Alerts,Fixed,-,-,$0.31,-,Optimized,$0.25,19%
+WEIGHTED TOTAL,,,,$4.18,-,,$2.39,43%
+,,,,,,,,
+NOTE: Current model uses $2.83 COGS which assumes optimization already applied,,,,,,,,
+,,,,,,,,
+OPTIMIZATION ROADMAP,,,,,,,,
+Phase,Timeframe,Action,Impact,,,,,
+Phase 1,Months 1-3,Google Vision for food + GPT-4o-mini for routine,-30% patient COGS,,,,,
+Phase 2,Months 4-6,Aggressive caching + batch optimization,-10% additional,,,,,
+Phase 3,Months 7-12,Fine-tuned models + volume discounts,-15% additional,,,,,
+Target,Month 12,Achieve 85%+ blended margin,-50% total COGS reduction,,,,,

@@ -1,0 +1,55 @@
+Category,Parameter,Old Value,New Value,Unit,Notes
+Pricing,Doctor Professional Base,$100,$249,per month,Market-validated pricing
+Pricing,Early Adopter Tier 1 (30% off),$70,$174,per month,Founder's Circle
+Pricing,Early Adopter Tier 2 (20% off),$80,$199,per month,Early Adopter
+Pricing,Early Adopter Tier 3 (10% off),$90,$224,per month,Launch Partner
+Pricing,Patient Premium,-,$9.99,per month,NEW: B2C monetization
+Pricing,Revenue Share to Doctors,-,25%,percentage,NEW: $2.50 per Premium patient
+,,,,
+Doctor COGS,Whisper Transcription,-,$0.09,per visit,15-min visit average
+Doctor COGS,GPT-4o SOAP Notes,-,$0.0155,per visit,AI-generated clinical notes
+Doctor COGS,AI Clinical Consultant,-,$0.0023,per visit,30% of visits use this
+Doctor COGS,Patient Data Infrastructure,-,$0.50,per month,Fixed cost per doctor
+Doctor COGS,Analytics & Reports,-,$0.05,per month,Batch processing
+Doctor COGS,TOTAL per visit,-,$0.1055,per visit,
+Doctor COGS,TOTAL per month (340 visits),$20-30,$37.19,per month,85% gross margin
+,,,,
+Patient COGS,AI Chat (Free user),-,$0.04,per month,50 messages
+Patient COGS,AI Chat (Premium typical),-,$1.75,per month,200 messages optimized
+Patient COGS,AI Chat (Premium at limit),-,$4.38,per month,500 messages
+Patient COGS,Food Photos (Free),-,$0.02,per month,10 photos with Google Vision
+Patient COGS,Food Photos (Premium typical),-,$0.09,per month,60 photos
+Patient COGS,Food Photos (Premium at limit),-,$0.23,per month,150 photos
+Patient COGS,Lab Analysis (Free),-,$0.25,per month,5 labs
+Patient COGS,Lab Analysis (Premium typical),-,$0.50,per month,10 labs
+Patient COGS,Health Sync,-,$0.15,per month,Fixed infrastructure cost
+Patient COGS,Reports & Alerts,-,$0.31,per month,Fixed cost
+Patient COGS,TOTAL Free User,-,$0.77,per month,
+Patient COGS,TOTAL Premium Typical,-,$2.80,per month,
+Patient COGS,TOTAL Premium Weighted Avg,-,$2.83,per month,72% gross margin before rev share
+,,,,
+Conversion,Free to Premium,-,12%,percentage,Target: 10-15% range
+Conversion,Patients per Doctor,-,100,count,Conservative estimate
+Conversion,Premium User Distribution: Typical,-,70%,percentage,200 msg 60 photos
+Conversion,Premium User Distribution: Active,-,25%,percentage,500 msg 150 photos
+Conversion,Premium User Distribution: Power,-,5%,percentage,At limits
+,,,,
+Limits,Doctor Visits Included,-,600,per month,30 per day
+Limits,Doctor Overage Price,-,$0.15,per visit,Above 600 visits
+Limits,Patient Messages (Free),-,50,per month,
+Limits,Patient Messages (Premium),-,500,per month,16 per day
+Limits,Patient Photos (Free),-,10,per month,
+Limits,Patient Photos (Premium),-,150,per month,5 per day
+Limits,Patient Labs (Free),-,5,per month,
+Limits,Patient Labs (Premium),-,20,per month,
+,,,,
+CAC & LTV,Doctor CAC (Direct),-,$300-500,one-time,Track from first customers
+CAC & LTV,Doctor CAC (Referral),-,$100-200,one-time,Warm introductions
+CAC & LTV,Patient CAC,-,$0,one-time,Organic through platform
+CAC & LTV,Doctor Monthly Churn,-,5%,percentage,Target: <5%
+CAC & LTV,Patient Monthly Churn,-,10%,percentage,Target: <10%
+CAC & LTV,Doctor Average Lifetime,-,20,months,Based on 5% churn
+CAC & LTV,Patient Average Lifetime,-,10,months,Based on 10% churn
+CAC & LTV,Doctor LTV,-,"$4,700",total,$235 × 20 months
+CAC & LTV,Patient LTV,-,$75,total,$7.49 × 10 months (net after rev share)
+CAC & LTV,Doctor LTV/CAC,-,9.4x,ratio,With $500 CAC

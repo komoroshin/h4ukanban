@@ -1,0 +1,73 @@
+KPI,Month 1,Month 2,Month 3,Month 6,Month 12 Target,Notes
+,,,,,,
+CUSTOMER METRICS,,,,,,
+Active Paying Doctors,1-2,2-3,3-5,6-8,10,Conservative growth
+Premium Patients,15-30,30-45,45-75,90-120,200,15% conversion from doctor base
+Total Free Patients,85-170,170-255,255-425,510-680,"1,000",Organic growth through platform
+Free to Premium Conversion %,10-15%,12-15%,12-15%,15%,15-20%,Improve through features & engagement
+,,,,,,
+REVENUE METRICS,,,,,,
+Doctor MRR,$174-348,$348-547,$547-920,"$1,410-1,880","$2,490",Blended ARPPU
+Patient Premium MRR (gross),$150-300,$300-449,$449-749,$899-1199,"$1,998",Before revenue share
+Revenue Share to Doctors,-$37 to -75,-$75 to -112,-$112 to -187,-$225 to -300,-$500,25% of patient Premium
+Patient Premium MRR (net),$113-225,$225-337,$337-562,$674-899,"$1,498",After revenue share
+Total MRR,$287-573,$573-884,$884-1482,"$2,084-2779","$3,988",Combined B2B + B2C
+ARR (annualized),"$3,444-6876","$6,876-10608","$10,608-17781","$25,008-33345","$47,856",Month × 12
+,,,,,,
+UNIT ECONOMICS,,,,,,
+Doctor ARPPU,$174-348,$174-199,$174-224,$224-249,$249,Moves toward full price
+Patient ARPPU,$9.99,$9.99,$9.99,$9.99,$9.99,Stable
+Doctor COGS per unit,$37.19,$37.19,$37.19,$33.80,$30.26,Optimization phases kick in
+Patient COGS per unit,$2.83,$2.83,$2.83,$2.50,$2.00,Optimization + scale
+,,,,,,
+MARGINS,,,,,,
+Doctor Gross Margin,85%,85%,85%,86%,88%,Improves with optimization
+Patient Gross Margin (before rev share),72%,72%,72%,75%,80%,Improves with optimization
+Patient Net Margin (after rev share),47%,47%,47%,50%,55%,After 25% revenue share
+Blended Gross Margin,72-74%,72-74%,73-74%,75-77%,80%,Weighted across both sides
+,,,,,,
+ACQUISITION & RETENTION,,,,,,
+Doctor CAC,Track,Track,"$300-500",$300,$250,Improves with referrals & reputation
+Patient CAC,$0,$0,$0,$0,$0,Organic through platform
+Doctor LTV/CAC,TBD,TBD,9-15x,15x,18x,Target >10x
+Doctor Monthly Churn,0%,0-5%,<5%,<5%,<5%,Annual contracts help
+Patient Monthly Churn,10-15%,10-12%,10%,8%,<8%,Improve engagement
+,,,,,,
+OPERATIONAL EFFICIENCY,,,,,,
+Doctor Visits per Month (avg),240-340,300-340,320-350,340-360,350,Stays within 600 limit mostly
+Patient Daily Active Users (DAU),20-40%,25-45%,30-50%,35-55%,40-60%,Engagement improvement
+Patient Messages per Premium User,100-200,150-250,180-280,200-300,250-350,Within 500 limit
+Food Photos per Premium User,30-60,40-70,50-80,60-90,70-100,Within 150 limit
+,,,,,,
+PLATFORM HEALTH,,,,,,
+Doctor NPS,8,8,8+,8+,9,Maintain high satisfaction
+Patient NPS,Track,7,7+,8,8+,Build gradually
+Doctor Feature Adoption,70%,75%,75%,80%,85%,AI Scribe primary driver
+Patient Feature Adoption,50%,60%,65%,70%,75%,Improve over time
+Support Tickets per Customer,2-3,2-3,1-2,1-2,<1,Better onboarding & UX
+,,,,,,
+GROWTH INDICATORS,,,,,,
+Doctor Pipeline (active leads),5-10,8-12,10-15,15-20,25-30,Sales funnel health
+Doctor Win Rate,20-30%,25-35%,30-40%,35-45%,40-50%,Improves with proof points
+Average Sales Cycle (days),30-45,30-40,25-35,20-30,15-25,Faster with references
+Patient Referral Rate,5%,8%,10%,12%,15%,Viral coefficient
+Patient App Store Rating,Track,4.2,4.3,4.5,4.7,Quality signal
+,,,,,,
+REVENUE MIX,,,,,,
+% Revenue from Doctors,61-66%,61-64%,62-64%,65-68%,62-65%,Balanced dual-sided
+% Revenue from Patients (net),34-39%,36-39%,36-38%,32-35%,35-38%,After revenue share
+,,,,,,
+COGS MIX,,,,,,
+% COGS from Doctors,44-47%,44-47%,45-47%,45-47%,43-45%,Scale efficiencies
+% COGS from Patients,53-56%,53-56%,53-55%,53-55%,55-57%,Optimization impact
+,,,,,,
+FINANCIAL HEALTH,,,,,,
+Gross Profit (monthly),$207-413,$413-645,$645-1084,"$1,565-2142","$3,189",Revenue - COGS
+Burn Rate (est with opex),-$15K,-$12K,-$10K,-$8K,-$5K,Approaching breakeven
+Months of Runway,Track,Track,Track,Track,18+,Target with seed raise
+,,,,,,
+INVESTOR METRICS,,,,,,
+Monthly Revenue Growth,,,55-159%,40-87%,43%,QoQ growth rate
+ARR Growth,,,54-159%,136%,91%,Year-over-year
+Magic Number,Track,Track,>0.7,>0.8,>1.0,Net new ARR / Sales & Marketing spend
+Rule of 40,Track,Track,Track,Track,>40,Growth % + Profit Margin %

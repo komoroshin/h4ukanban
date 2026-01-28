@@ -1,0 +1,19 @@
+{
+  "project_name": "healthy4u",
+  "team_members": [
+    "irynamarchenko1@gmail.com"
+  ],
+  "keywords": [
+    "healthy4u",
+    "H4U",
+    "здоровье"
+  ],
+  "fireflies": {
+    "api_key_env": "FIREFLIES_API_KEY",
+    "sync_limit": 20
+  },
+  "anthropic": {
+    "api_key_env": "ANTHROPIC_API_KEY",
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

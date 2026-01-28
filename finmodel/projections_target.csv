@@ -1,0 +1,9 @@
+Month,Doctor Count,Doctor Tier Mix,Doctor MRR,Patient Premium Count,Patient Premium Revenue,Revenue Share,Net Patient Revenue,Total MRR,Doctor COGS,Patient COGS,Total COGS,Gross Profit,Gross Margin %,ARR (annualized)
+1,2,2×T1,$348,30,$299.70,-$75.00,$224.70,$572.70,$74.38,$84.90,$159.28,$413.42,72%,"$6,872"
+2,4,3×T1 + 1×T2,$721,60,$599.40,-$150.00,$449.40,"$1,170.40",$148.76,$169.80,$318.56,$851.84,73%,"$14,045"
+3,5,3×T1 + 2×T2,$920,75,$749.25,-$187.50,$561.75,"$1,481.75",$185.95,$212.25,$398.20,"$1,083.55",73%,"$17,781"
+
+Summary,,,,,,,,,,,,,
+Q1 Total Revenue (sum),,,,,,,,"$3,225",,,,,,
+Month 3 ARR,,,,,,,,,,,,"$17,781",,
+Average Margin,,,,,,,,,,,,,73%,
